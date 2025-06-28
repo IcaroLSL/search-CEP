@@ -1,0 +1,23 @@
+{
+    "name": "yoku/locate-cep",
+    "description": "Search CEP online",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Yoku\\LocateCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ícaro Luiz",
+            "email": "icarolsl@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
